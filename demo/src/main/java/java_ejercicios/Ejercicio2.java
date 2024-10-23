@@ -1,4 +1,4 @@
-package ejercicio2;
+package java_ejercicios;
 
 public class Ejercicio2 {
 
@@ -25,9 +25,5 @@ public class Ejercicio2 {
       }
       System.out.println();
     }
-  }
-  public static void putline(){
-    System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
-    System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
   }
 }
