@@ -1,5 +1,7 @@
 package java_ejercicios;
 
+import java.util.HashMap;
+
 public class Main {
     public static void main(String[] args) {
         // EJERCICIO 2
@@ -41,5 +43,15 @@ public class Main {
 
         // LEYENDO ARCHIVO.TXT
         Ejercicio5.readFile(file);
+        Metodos.putline();
+        // EJERCICIO 6 OTRAS ESTRUCTURAS MAS COMPLEJAS
+        HashMap<String, Integer> keys = new HashMap<>();
+        keys.put("Jose", 54);
+        keys.put("Manuela", 21);
+        keys.put("Carlos", 35);
+
+        for (String clave : keys.keySet()){
+            System.out.println("Nombre: "+clave+", Edad: "+keys.get(clave)+" años");
+        }
     }
 }
