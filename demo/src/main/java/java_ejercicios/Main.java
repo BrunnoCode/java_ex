@@ -32,5 +32,14 @@ public class Main {
         car.setYear(2024);
         System.out.println(car.toString());
         Metodos.putline();
+
+        // EJERCICIO 5 LECTURA y ESCRITA DE ARCHIVOS
+
+        // CREANDO ARCHIVO.TXT
+        String file = "ejemplo.txt";
+        Ejercicio5.creatFileTxt(file);
+
+        // LEYENDO ARCHIVO.TXT
+        Ejercicio5.readFile(file);
     }
 }
