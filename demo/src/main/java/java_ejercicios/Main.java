@@ -23,5 +23,14 @@ public class Main {
         // FILAS
         Ejercicio3.myQueue();
         Metodos.putline();
+        
+        // EJERCICIO 4
+        // OBJETO COCHE
+        Coche car = new Coche();
+        car.setMarca("BMW");
+        car.setModelo("X6");
+        car.setYear(2024);
+        System.out.println(car.toString());
+        Metodos.putline();
     }
 }
