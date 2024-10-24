@@ -1,6 +1,7 @@
 package java_ejercicios;
 
 import java.util.LinkedList;
+import java.util.Stack;
 
 public class Ejercicio3 {
 
@@ -15,6 +16,15 @@ public class Ejercicio3 {
     for (String nombre : names){
       System.out.println(nombre);
     }
+  }
+
+  // STACKS PILAS
+  public static void myStack(){
+    Stack<Integer> newStack = new Stack<>();
+    newStack.add(15);
+    newStack.add(56);
+    newStack.add(65);
+    System.out.println("Numeros insertados: "+newStack+"\nNumero removido: "+newStack.pop()+"\nNumero en el topo de la pila: "+newStack.peek());
   }
   
 }

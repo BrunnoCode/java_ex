@@ -15,5 +15,9 @@ public class Main {
         // LISTAS ENLAZADAS
         Ejercicio3.showLinkedList();
         Metodos.putline();
+
+        // STACKS PILAS
+        Ejercicio3.myStack();
+        Metodos.putline();
     }
 }
