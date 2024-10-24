@@ -19,5 +19,9 @@ public class Main {
         // STACKS PILAS
         Ejercicio3.myStack();
         Metodos.putline();
+
+        // FILAS
+        Ejercicio3.myQueue();
+        Metodos.putline();
     }
 }
